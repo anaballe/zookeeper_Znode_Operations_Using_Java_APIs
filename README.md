@@ -12,7 +12,9 @@ This repository consists of set of operations performed on Znodes using Zookeepe
 
 The ZookeeperConnection.java is used by each other Znode operation code and is used in establishing connection with the Zookeeper ensemble.
 Before using these,start the Zookeeper service via the command :
+
  ./zkServer.sh start zoo.cfg
  
  and to check for changes,see the CLI.To get the CLI type the command :
+ 
  ./zkCli.sh -server 127.0.0.1:2181
